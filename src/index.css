@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 5% 25%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("./img/bg.png");
+    background-size: cover;
+}
+.App {
+    overflow: hidden;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+a {
+    color: rgb(255, 115, 0);
+}
+@media (max-width: 900px) {
+    body {
+        padding: 5% 10%;
+    }
+}
+@media (max-width: 500px) {
+    body {
+        padding: 5%;
+    }
+}

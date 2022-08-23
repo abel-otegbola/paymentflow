@@ -1,0 +1,73 @@
+.billing_info {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 0;
+    animation: 0.3s slide linear;
+}
+.billing_info label p {
+    font-size: 14px;
+    color: #999;
+}
+.billing_info input {
+    width: 95%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    outline: 3px solid transparent;
+}
+.billing_info input:focus {
+    outline: 3px solid rgb(219, 219, 251);
+    transition: 0.7s;
+}
+.billing_info select.card_type {
+    width: 100%;
+    padding: 15px;
+}
+.billing_info .carddetails {
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.billing_info .cardnumber {
+    flex: 1;
+    display: flex;
+    padding: 0 8% 0 0;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.billing_info .expiry {
+    width: 130px;
+    padding: 0 6% 0 0;
+}
+.billing_info .expiry .expiryinputs {
+    display: flex;
+    align-items: center;
+    border: 1px solid #999;
+    height: fit-content;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+}
+.billing_info .expiry input {
+    border: none;
+    outline: none;
+    width: 45%;
+    margin-bottom: 0;
+}
+.billing_info .cvv {
+    width: 70px;
+    padding: 0 20px 0 0;
+}
+.billing_info .cvv input {
+    text-align: center;
+}
+@keyframes slide {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}

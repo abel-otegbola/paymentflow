@@ -1,0 +1,9 @@
+button {
+    width: 40%;
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: #fff;
+    background: linear-gradient(rgb(255, 115, 0), rgb(215, 64, 0)) ;
+    border: none;
+    cursor: pointer;
+}

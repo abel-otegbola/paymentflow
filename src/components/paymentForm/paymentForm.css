@@ -1,0 +1,23 @@
+.payment_form .box {
+    display: none;
+}
+.payment_form .active {
+    display: block;
+}
+.payment_form .error {
+    text-align: center;
+    padding: 10px;
+    color: rgb(237, 69, 69);
+}
+.buttons {
+    display: flex;
+    align-items: center;
+}
+.buttons h5 {
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+sup {
+    color: rgb(248, 14, 14);
+}

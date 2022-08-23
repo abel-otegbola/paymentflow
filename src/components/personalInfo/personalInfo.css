@@ -1,0 +1,35 @@
+.payment_info {
+    padding: 5% 0;
+    animation: 0.3s slide linear;
+}
+.payment_info label p {
+    font-size: 14px;
+    color: #999;
+}
+.payment_info input {
+    width: 95%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    outline: 3px solid transparent;
+}
+.payment_info input:focus {
+    outline: 3px solid rgb(219, 219, 251);
+    transition: 0.7s;
+}
+.payment_info .address-contd {
+    display: flex;
+    justify-content: space-between;
+}
+.payment_info select {
+    padding: 15px;
+}
+@keyframes slide {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
