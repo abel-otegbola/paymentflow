@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/paymentflow/static/css/main.a17413ea.chunk.css",
+    "main.js": "/paymentflow/static/js/main.e9e07009.chunk.js",
+    "main.js.map": "/paymentflow/static/js/main.e9e07009.chunk.js.map",
+    "runtime-main.js": "/paymentflow/static/js/runtime-main.d66e16c3.js",
+    "runtime-main.js.map": "/paymentflow/static/js/runtime-main.d66e16c3.js.map",
+    "static/js/2.b549fc73.chunk.js": "/paymentflow/static/js/2.b549fc73.chunk.js",
+    "static/js/2.b549fc73.chunk.js.map": "/paymentflow/static/js/2.b549fc73.chunk.js.map",
+    "index.html": "/paymentflow/index.html",
+    "static/css/main.a17413ea.chunk.css.map": "/paymentflow/static/css/main.a17413ea.chunk.css.map",
+    "static/js/2.b549fc73.chunk.js.LICENSE.txt": "/paymentflow/static/js/2.b549fc73.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d66e16c3.js",
+    "static/js/2.b549fc73.chunk.js",
+    "static/css/main.a17413ea.chunk.css",
+    "static/js/main.e9e07009.chunk.js"
+  ]
+}
